@@ -1,1 +1,1 @@
-web: newrelic-admin run-program gunicorn delphes
+web: python -m newrelic.admin run-program "python -m gunicorn delphes"
