@@ -1,3 +1,3 @@
 from eve import Eve
 
-application = Eve()
+app = Eve()

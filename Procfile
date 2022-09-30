@@ -1,1 +1,1 @@
-web: python -m gunicorn delphes.app
+web: newrelic-admin run-program gunicorn delphes
